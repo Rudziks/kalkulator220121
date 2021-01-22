@@ -1,27 +1,39 @@
+
+
 .ramka {
 border-style: solid;
-border-radius: 3px;
-height: 800px;
-
-margin-left: 50px;
+border-radius: 0.6rem;
+margin-top: 1rem;
+margin-left: 15rem;
+margin-right: 15rem;
+border-color: rgb(189, 189, 189);
+width: auto;
 }
 
 .btn{
-    border-style: none;
-    padding: 10px;
-    padding-top: 1rem;
-    margin: 1rem;
+padding: 1rem;
+padding-top: 1rem;
+margin: 1rem;
+font-size: 20px;
+border-radius: 0.6rem;
+border: none;
 }
 
 .input {
 margin-top: 20px;
-margin-left: 100px;
+text-align: center;
+border-radius: 1rem;
 }
 
 .input-1 {
-border-radius: 3px;
 height: 70px;
-width: 95%;
+width: 1330px;
+text-align: right;
+font-size: 2rem;
+border-radius: 1rem;
+border-color: gray;
+outline-color: outset;
+outline: none;
 }
 
 .container{
@@ -29,7 +41,12 @@ display: grid;
 }
 
 .item1{
-grid-column: 1/ span 2;
+grid-column: 1;
+grid-row: 1;
+}
+
+.item35{
+grid-column: 2 ;
 grid-row: 1;
 }
 
@@ -59,15 +76,16 @@ grid-row: 1;
 }
 
 .color{
-    background-color: honeydew;
+    background-color: rgb(233, 232, 232);
 }
 
 .color2{
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(190, 190, 190);
 }
 
 .color3{
     background-color: rgb(0, 89, 255);
+    color: white;
 }
 
 .grid-item {
@@ -81,4 +99,19 @@ background-color: gray;
 
 .btn-b{
 background-color: honeydew;
+}
+
+.btn1{
+margin-right: -1rem;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.btn2{
+    color: gray;
+margin-left: -0.1rem;
+margin-right: 1rem;
+border-left: solid gray;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
 }
