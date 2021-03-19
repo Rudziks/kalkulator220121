@@ -99,7 +99,7 @@ background-color: gray;
 }
 
 .btn-b{
-background-color: honeydew;
+background-color: rgb(153, 153, 153);
 }
 
 .btn1{
@@ -115,6 +115,10 @@ margin-right: 1rem;
 border-left: solid gray;
 border-bottom-left-radius: 0px;
 border-top-left-radius: 0px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 106, 6);
 }
 
 @media all and (max-width: 1000px)
